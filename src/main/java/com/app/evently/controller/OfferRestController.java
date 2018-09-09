@@ -24,7 +24,7 @@ import com.app.evently.service.OfferService;
  *
  */
 @RestController
-@RequestMapping(value = "/OfferRestController")
+@RequestMapping(value = "/OfferRestController") 
 public class OfferRestController extends AbstractController{
 	private static Logger logger = Logger.getLogger(OfferRestController.class);
 	private OfferService offerService;
